@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortener</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="linkShortener">
+            <h1>Link Shortener</h1>
+            <div>
+                <label for="input">Enter a link :</label>
+                <input id="link-input" placeholder="enter a link..."/>
+                <button><i class="fas fa-arrow-square-right"></i></button>
+            </div>
+            <div>
+                <label for="button">Short domain</label>
+                <button id="btn1" class="btn">shrtco.de</button>
+                <button id="btn2" class="btn">9qr.de</button>
+                <button id="btn3" class="btn">shiny.link</button>
+            </div>
+            <br>
+            <span>With this free Link Shortener you can make Links shorter and<br>
+                easier to remember. Just enter a Link into the form and click<br> 
+                on the above Button to generate a short Link. When visiting the<br>
+                short-Link, the short-Link will immediately redirect you to the long Link</span>
+        </div>
+        <div class="linkGenerated">
+            <h1>Link generated</h1>
+            <a id="link" href="#" target="_blank">Load linkkkkkkkk</a>
+            <div class="icon">
+                <i class="fab fa-facebook-square icon-i"></i>
+                <i class="fab fa-twitter icon-i"></i>
+                <i class="fas fa-envelope icon-i"></i>
+                <i class="fab fa-whatsapp-square icon-i"></i>
+                <i class="fas fa-paper-plane icon-i"></i>
+            </div>
+        </div>
+    </div>    
+</body>
+<script src="main.js"></script>
+</html>

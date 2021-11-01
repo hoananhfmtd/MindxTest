@@ -1,0 +1,9 @@
+.container {
+    text-align: center;
+}
+.linkGenerated {
+    padding-top: 150px;
+}
+.active {
+    background-color: grey;
+}
